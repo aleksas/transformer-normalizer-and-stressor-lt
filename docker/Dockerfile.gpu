@@ -15,7 +15,7 @@ RUN pip install -U pip && pip install --no-cache-dir \
 WORKDIR "/root/"
 
 # Checkout repo
-RUN git clone -b num2text https://github.com/aleksas/tensor-stressor 
+RUN git clone https://github.com/aleksas/transformer-normalizer-and-stressor-lt.git
 
 WORKDIR "/root/tensor-stressor"
 
