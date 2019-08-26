@@ -199,5 +199,6 @@ def transformer_base_bs94_lrc1_do4_e():
 @registry.register_hparams
 def transformer_base_bs94_lrc1_do4_f():
   hparams = transformer_base_bs94_lrc1_do4()
+  hparams.batch_size = 8800
   return hparams
 
